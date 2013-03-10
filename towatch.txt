@@ -1,0 +1,7 @@
+
+
+
+
+
+
+<li>Add movies and videos to watch in my Easy Life! account.<input class="done" type="submit" value="Done"><button class="button" type="submit" value="Delete" name="delete" form="form">Delete</button></li>

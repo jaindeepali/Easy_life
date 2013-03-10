@@ -1,0 +1,236 @@
+body {
+		background-color: rgba(255, 255, 255, 0);
+        background-repeat: repeat-y;
+		position: absolute;
+		font-family: 'Patrick Hand SC',"comic sans ms";
+		font-size: 25;
+		color: rgba(207, 233, 18, 0.89);
+		text-shadow: 1px 1px 2px rgb(0,0,0);
+}
+a{
+    font-family: 'Patrick Hand SC','Molle', cursive;	
+	
+    font-size: 63;
+	
+    text-shadow: 5px 5px 5px rgba(9, 3, 24, 0.47);
+    color: rgb(240, 106, 55);
+	text-decoration: none;
+    padding: 40;
+    position: relative;
+    top: 10;
+    padding-left: 0;
+}
+#header{
+	position: fixed;
+	height: 250;
+	width: 500;
+	z-index: -1;
+	padding-left: 20;
+}
+#bg{
+	position:fixed;
+	left: 0;
+	top: 0;
+	height: 45%;
+	width: 100%;
+	z-index: -1;
+}
+#list{
+	position: fixed;
+	top: 231;
+	list-style-type: none;
+	font-size: 15;
+	z-index: -1;
+	color: rgb(153, 172, 51);
+	text-shadow: 1px 1px 2px;
+}
+#category{
+	position: absolute;
+	top: 521;
+	left: 601;
+}
+#cat1{
+    position: absolute;
+    left: 100;
+	height: 64;
+	width: 107;
+	background-image: url("note.jpg");
+	
+    padding-left: 26;
+	padding-bottom: 22;
+	background-size: 100% 100%;
+}
+#cat2{
+    position: absolute;
+    left: 450;
+	height: 64;
+	width: 107;
+	background-image: url("note.jpg");
+	padding-left: 29;
+	padding-bottom: 22;
+	background-size: 100% 100%;
+    padding-right: 8;
+}
+#cat3{
+	position: absolute;
+	left: 800;
+    height: 64;
+	width: 107;
+	background-image: url("note.jpg");
+	padding-left: 20;
+	padding-bottom: 22;
+	padding-right: 11;
+	background-size: 100% 100%;
+}
+#cat4{
+	position: absolute;
+	left: 1150;
+    height: 64;
+	width: 107;
+	background-image: url("note.jpg");
+	padding-left: 29;
+	padding-bottom: 22;
+	background-size: 100% 100%;
+}
+img{
+	z-index: -2;
+	left: 200;
+}
+h2{
+	position: absolute;
+	top: 20;
+}
+.content{
+	position: fixed;
+	background-color: rgba(250, 210, 2,0.6);
+	width: 100%;
+	height: 46%;
+	top: 317;
+	left: 0;
+	overflow: auto;
+	padding-left: 80;
+	padding-top: 20;
+	font-size: 27;
+	color: rgb(238, 154, 27);
+	text-shadow: 1px 1px 1px rgb(92, 71, 7);
+	box-shadow: 0px -3px 36px rgb(131, 88, 12);
+}
+.button,
+.done{
+	border: none;
+	background-color: transparent;
+	color: rgb(214, 144, 20);
+	padding-left: 20;
+	padding-bottom: 0;
+}
+#logout,
+.addtask{
+	border: none;
+	padding: 7;
+	font-size: 20;
+	background-color: rgba(255,255,255,0.4);
+	border-radius: 10px;
+	box-shadow: 0.5px 0.5px 15px #888;
+}
+.strike{
+	text-decoration: line-through;
+}
+input[type=text]{
+	background-color: transparent;
+	border-width: 1px;
+	border-style: dotted;
+	border-color: rgb(185, 134, 42);
+	color: rgb(214, 144, 20);
+}
+input[value="Add task"]{
+	color: rgb(214, 144, 20);
+}
+input[value="Logout"]{
+	color: rgb(245, 246, 247);
+}
+
+/* Turn on a 13x13 scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-button:vertical {
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 5px;
+}
+
+/* Turn on single button up on top, and down on bottom */
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+    display: block;
+}
+
+/* Turn off the down area up on top, and up area on bottom */
+::-webkit-scrollbar-button:vertical:start:increment,
+::-webkit-scrollbar-button:vertical:end:decrement {
+    display: none;
+}
+
+/* Place The scroll down button at the bottom */
+::-webkit-scrollbar-button:vertical:increment {
+    display: none;
+}
+
+/* Place The scroll up button at the up */
+::-webkit-scrollbar-button:vertical:decrement {
+    display: none;
+}
+
+/* Place The scroll down button at the bottom */
+::-webkit-scrollbar-button:horizontal:increment {
+    display: none;
+}
+
+/* Place The scroll up button at the up */
+::-webkit-scrollbar-button:horizontal:decrement {
+    display: none;
+}
+
+::-webkit-scrollbar-track:vertical {
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+}
+
+/* Top area above thumb and below up button */
+::-webkit-scrollbar-track-piece:vertical:start {
+    border: 0px;
+}
+
+/* Bottom area below thumb and down button */
+::-webkit-scrollbar-track-piece:vertical:end {
+    border: 0px;
+}
+
+/* Track below and above */
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(0,0,0,0);
+}
+
+/* The thumb itself */
+::-webkit-scrollbar-thumb:vertical {
+    height: 50px;
+    background-color: rgba(0,0,0,0.9);
+}
+
+/* The thumb itself */
+::-webkit-scrollbar-thumb:horizontal {
+    height: 50px;
+    background-color: rgba(0,0,0,0);
+}
+
+/* Corner */
+::-webkit-scrollbar-corner:vertical {
+    background-color: black;
+    border-radius: 15px;
+}
+
+/* Resizer */
+::-webkit-scrollbar-resizer:vertical {
+    background-color: gray;
+}
