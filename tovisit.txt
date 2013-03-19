@@ -1,13 +1,2 @@
 
-
-
-
-
-
-
-
-
-
-
-
-<li>Add places to visit in my Easy Life! account.<input class="done" type="submit" value="Done"><button class="button" type="submit" value="Delete" name="delete" form="form">Delete</button></li>
+<li>Add places to visit in my Easy Life! account.<input class="done" type="submit" value="Done"><button class="visit_button" type="submit" value="Delete" name="visit_delete">Delete</button></li>

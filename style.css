@@ -4,7 +4,7 @@ body {
 		position: absolute;
 		font-family: 'Patrick Hand SC',"comic sans ms";
 		font-size: 25;
-		color: rgba(207, 233, 18, 0.89);
+		color: rgba(207, 233, 18, 0.89);	
 		text-shadow: 1px 1px 2px rgb(0,0,0);
 }
 a{
@@ -115,7 +115,10 @@ h2{
 	text-shadow: 1px 1px 1px rgb(92, 71, 7);
 	box-shadow: 0px -3px 36px rgb(131, 88, 12);
 }
-.button,
+.do_button,
+.read_button,
+.watch_button,
+.visit_button,
 .done{
 	border: none;
 	background-color: transparent;
