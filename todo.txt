@@ -1,2 +1,19 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <li>Checkout my Easy Life! account.<input class="done" type="submit" value="Done"><button class="do_button" type="submit" value="Delete" name="do_delete">Delete</button></li>
+
+

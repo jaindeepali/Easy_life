@@ -5,7 +5,6 @@
 		        $contents = file_get_contents("todo.txt");
 		        $contents = str_replace($line, '', $contents);
 		        file_put_contents("todo.txt", $contents);
-		        echo file_get_contents("todo.txt");
 		    }
 		    
 ?>
@@ -16,7 +15,6 @@
 		        $contents = file_get_contents("toread.txt");
 		        $contents = str_replace($line, '', $contents);
 		        file_put_contents("toread.txt", $contents);
-		        echo file_get_contents("toread.txt");
 		    }
 		    
 ?>
@@ -27,7 +25,6 @@
 		        $contents = file_get_contents("towatch.txt");
 		        $contents = str_replace($line, '', $contents);
 		        file_put_contents("towatch.txt", $contents);
-		        echo file_get_contents("towatch.txt");
 		    }
 		    
 ?>
@@ -38,7 +35,6 @@
 		        $contents = file_get_contents("tovisit.txt");
 		        $contents = str_replace($line, '', $contents);
 		        file_put_contents("tovisit.txt", $contents);
-		        echo file_get_contents("tovisit.txt");
 		    }
 		    
 ?>

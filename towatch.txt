@@ -1,2 +1,11 @@
-
 <li>Add movies and videos to watch in my Easy Life! account.<input class="done" type="submit" value="Done"><button class="watch_button" type="submit" value="Delete" name="watch_delete">Delete</button></li>
+
+
+
+
+
+
+
+
+
+
