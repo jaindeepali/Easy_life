@@ -1,0 +1,91 @@
+body {
+		background-color: rgba(255, 255, 255, 0);
+		background: url("login_pic.jpg");
+		background-size: 100% 100%;
+        background-repeat: no-repeat;
+		position: absolute;
+		font-family: 'Patrick Hand SC',"comic sans ms";
+		font-size: 25;
+		color: rgb(146, 49, 103);	
+		text-shadow: 1px 1px 2px rgb(0,0,0);
+}
+#login{
+	position: absolute;
+	top: 250;
+	left: 547;
+	background-color: rgba(204, 192, 192, 0.8);
+	padding: 54;
+	border-radius: 37px;
+	box-shadow: 2px 2px 29px 50px rgba(252, 254, 255,0.8);
+}
+#logup{
+    position: absolute;
+    top: 250;
+    left: 547;
+    background-color: rgba(204, 192, 192, 0.8);
+    padding: 54;
+    border-radius: 37px;
+    box-shadow: 2px 2px 29px 50px rgba(252, 254, 255,0.8);
+}
+.txt{
+    height: 24;
+    width: 234;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: rgb(190, 204, 214);
+    color: rgb(180, 205, 224);
+    font-size: 16;
+    position: relative;
+    top: 0;
+}
+.btn{
+    position: relative;
+    top: 16;
+    border: none;
+    padding: 5;
+    border-radius: 10px;
+    font-size: 19;
+    color: rgb(96, 113, 143);
+    background-color: rgba(255, 255, 255,0.5);
+}
+h1{
+    position: absolute;
+    left: 577;
+    width: 300;
+    font-size: 80;
+    color: rgba(207, 233, 18,0.89);
+}
+h2{
+    position: absolute;
+    width: 300;
+    top: 121;
+    left: 599;
+    color: rgb(255, 90, 48);
+}
+#btn1{
+    position: relative;
+    top: 23;
+    left: 14;
+}
+#btn2{
+    position: relative;
+    top: 23;
+    left: 35;
+}
+#btn3{
+    position: relative;
+    top: 23;
+    left: 25;
+}
+#btn4{
+    position: relative;
+    top: 23;
+    left: 66;
+}
+#or{
+    position: relative;
+
+    top: 23;
+    left: 24;
+    color: rgb(164, 208, 233);
+}
