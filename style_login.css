@@ -17,6 +17,7 @@ body {
 	padding: 54;
 	border-radius: 37px;
 	box-shadow: 2px 2px 29px 50px rgba(252, 254, 255,0.8);
+    
 }
 #logup{
     position: absolute;
@@ -47,6 +48,10 @@ body {
     font-size: 19;
     color: rgb(96, 113, 143);
     background-color: rgba(255, 255, 255,0.5);
+    cursor: pointer;
+}
+.btn:hover{
+    padding: 10;
 }
 h1{
     position: absolute;
