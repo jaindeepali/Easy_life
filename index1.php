@@ -14,7 +14,7 @@
 <head>
 	<title>Easy Life</title>
 	<link href='http://fonts.googleapis.com/css?family=Molle:400italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+	<ink href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 	<link rel="stylesheet" href="style.css">

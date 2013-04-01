@@ -1,6 +1,6 @@
 $(document).ready(function(){
   function allow_done(){
-    $(".done").click(function(){
+    $(".done").unbind('click').click(function(){
       if($(this).parent().hasClass("strike"))
       { 
         $(this).attr('value',"Done");
@@ -12,7 +12,7 @@ $(document).ready(function(){
         $(this).parent().addClass("strike");
       }
   });
-$('.do_button').click(function(){
+$('.do_button').unbind('click').click(function(){
       if($(this).parent().hasClass("strike"))
       {
       var parent=$(this).parent();
@@ -66,14 +66,14 @@ $('.do_button').click(function(){
 		$("#cat1cont").show();
     $("#cat1").css('padding-bottom', '45');
     $("#cat1").siblings().css('padding-bottom', '22');
-    //allow_done();
+    allow_done();
 		$("#cat1").click(function(){
       allow_done();
 			$("#cat1cont").siblings().hide();
 			$("#cat1cont").show();
       $("#cat1").css('padding-bottom', '45');
       $("#cat1").siblings().css('padding-bottom', '22');
-      allow_done();
+      //allow_done();
 			});
 		$("#cat2").click(function(){
       allow_done();
@@ -81,7 +81,7 @@ $('.do_button').click(function(){
 			$("#cat2cont").show();
       $("#cat2").css('padding-bottom', '45');
       $("#cat2").siblings().css('padding-bottom', '22');
-      allow_done();
+      //allow_done();
 			});
 		$("#cat3").click(function(){
       allow_done();
@@ -89,7 +89,7 @@ $('.do_button').click(function(){
 			$("#cat3cont").show();
       $("#cat3").css('padding-bottom', '45');
       $("#cat3").siblings().css('padding-bottom', '22');
-      allow_done();
+      //allow_done();
 			});
 		$("#cat4").click(function(){
       allow_done();
@@ -97,7 +97,7 @@ $('.do_button').click(function(){
 			$("#cat4cont").show();
       $("#cat4").css('padding-bottom', '45');
       $("#cat4").siblings().css('padding-bottom', '22');
-      allow_done();
+      //allow_done();
 			});
 
   $('.addtask').click(function(){
@@ -135,7 +135,7 @@ $('.do_button').click(function(){
         }
         $.ajax({
           type: "GET",
-          url: "code.php",//allow_
+          url: "code.php",
           data: {addtodo:text1,
                  addtoread:text2,
                  addtowatch:text3,
@@ -153,5 +153,4 @@ $('.do_button').click(function(){
         });
         
       });
-      allow_done();
 });
