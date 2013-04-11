@@ -120,12 +120,13 @@ h2{
 	position: fixed;
 	background-color: rgba(250, 210, 2,0.6);
 	width: 100%;
-	height: 46%;
+	height: 40%;
 	top: 345;
 	left: 0;
 	overflow: auto;
 	padding-left: 80;
 	padding-top: 20;
+	padding-bottom: 40;
 	font-size: 27;
 	color: rgb(238, 154, 27);
 	text-shadow: 1px 1px 1px rgb(92, 71, 7);
