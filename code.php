@@ -68,7 +68,7 @@
 	}
   if($_GET["addtodo"]!="")
 	{
-		$item = $_GET['addtodo'];
+		$item = mysql_real_escape_string($_GET['addtodo']);
 		$uname = $_SESSION["name"]."1";
 		$sql = "INSERT INTO ".$uname."(listitem) VALUES ('".$item."');";
 		$check = mysql_query($sql,$con);
@@ -78,7 +78,7 @@
 	}
   if($_GET["addtoread"]!="")
 	{
-		$item = $_GET['addtoread'];
+		$item = mysql_real_escape_string($_GET['addtoread']);
 		$uname = $_SESSION["name"]."2";
 		$sql = "INSERT INTO ".$uname."(listitem) VALUES ('".$item."');";
 		$check = mysql_query($sql,$con);
@@ -88,7 +88,7 @@
 	}
   if($_GET["addtowatch"]!="")
 	{
-		$item = $_GET['addtowatch'];
+		$item = mysql_real_escape_string($_GET['addtowatch']);
 		$uname = $_SESSION["name"]."3";
 		$sql = "INSERT INTO ".$uname."(listitem) VALUES ('".$item."');";
 		$check = mysql_query($sql,$con);
@@ -98,7 +98,7 @@
 	}
   if($_GET["addtovisit"]!="")
 	{
-		$item = $_GET['addtovisit'];
+		$item = mysql_real_escape_string($_GET['addtovisit']);
 		$uname = $_SESSION["name"]."4";
 		$sql = "INSERT INTO ".$uname."(listitem) VALUES ('".$item."');";
 		$check = mysql_query($sql,$con);
